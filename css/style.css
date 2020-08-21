@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    font-family: 'Devonshire', cursive;
+}
+
+.background{
+  background-image: url("../images/gradient.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.text img{
+    border-radius: 50%;
+    border 5px solid white;
+    width: 20%;
+    height: auto;
+}
